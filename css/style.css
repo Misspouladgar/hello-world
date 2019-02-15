@@ -1,0 +1,55 @@
+*{
+    font-family: 'vazir';
+    box-sizing:border-box;
+    border:none; 
+}
+body{
+    background:#F0F0F0;
+    text-align:center;
+}
+.login-page{
+    text-align:center;
+    width:400px;
+    height:550px;
+    background:rgb(255, 255, 255);
+    margin:50px auto;
+    border-radius:5px;
+    border:1px solid rgba(201, 195, 195, 0.822);
+}
+h2{
+    padding-top:5px;
+    font-size:30px;
+}
+i{
+    padding-top:30px;
+    font-size:40px;
+}
+a{
+color:rgb(2, 63, 175);
+}
+p{
+    font-weight:lighter;
+    padding: 20px 0;
+    cursor:pointer;
+}
+#email,#pasword{
+    padding:20px;
+    width:260px;
+    height:20px;
+    border-bottom:1px solid rgba(179, 180, 178, 0.24);
+    font-size:17px;
+    padding-right:5px;
+    padding-bottom:10px;
+    text-align: right;
+    font-weight:lighter;
+    margin:30px 0;
+}
+#leftbutton{
+    height:35px;
+    width:52%;
+    margin:30px 0;
+    background:rgba(88, 48, 201, 0.774);
+    color:white;
+    border-radius:10px;
+    cursor:pointer;
+}
